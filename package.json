@@ -1,0 +1,105 @@
+{
+  "name": "yoda-admin-react",
+  "private": true,
+  "dependencies": {
+    "@algolia/autocomplete-js": "^1.3.0",
+    "@craco/craco": "^5.9.0",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/daygrid": "^5.9.0",
+    "@fullcalendar/interaction": "^5.9.0",
+    "@fullcalendar/react": "^5.9.0",
+    "@fullcalendar/timegrid": "^5.9.0",
+    "@mui/material": "^5.14.9",
+    "@mui/x-data-grid": "^6.13.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "algoliasearch": "^4.10.3",
+    "antd": "4.16.11",
+    "antd-mask-input": "^2.0.7",
+    "apexcharts": "^3.27.3",
+    "array-move": "^4.0.0",
+    "axios": "^0.21.4",
+    "axios-mock-adapter": "^1.20.0",
+    "bcrypt": "^5.1.1",
+    "classnames": "^2.3.1",
+    "country-flag-icons": "^1.4.21",
+    "craco-less": "^2.0.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "eslint": "^8.44.0",
+    "fetch-jsonp": "^1.2.1",
+    "framer-motion": "^6.5.1",
+    "iconsax-react": "^0.0.8",
+    "immutability-helper": "^3.1.1",
+    "js-cookie": "^3.0.5",
+    "less": "^3.11.1",
+    "less-loader": "^10.0.1",
+    "moment": "^2.29.1",
+    "postcss-normalize": "^10.0.1",
+    "prop-types": "^15.7.2",
+    "querystring": "^0.2.1",
+    "rc-resize-observer": "^1.0.1",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.3.9",
+    "react-autosuggest": "^10.1.0",
+    "react-countdown": "^2.3.2",
+    "react-d3-tree": "^3.6.1",
+    "react-dnd": "^14.0.4",
+    "react-dnd-html5-backend": "^14.0.2",
+    "react-dom": "^17.0.2",
+    "react-flatpickr": "^3.10.7",
+    "react-highlight-words": "^0.17.0",
+    "react-hook-form": "^7.14.0",
+    "react-iconly": "^2.2.3",
+    "react-icons": "^4.2.0",
+    "react-id-swiper": "^4.0.0",
+    "react-instantsearch-dom": "^6.12.1",
+    "react-intl": "^5.25.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll-up": "^1.3.7",
+    "react-select": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "react-sortable-hoc": "^2.0.0",
+    "react-syntax-highlighter": "^15.4.4",
+    "react-window": "^1.8.6",
+    "redux-debounced": "^0.5.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "reqwest": "^2.0.5",
+    "swiper": "^9.4.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "//": "See https://github.com/facebook/create-react-app/issues/11773",
+    "react-error-overlay": "6.0.9"
+  },
+  "devDependencies": {
+    "react-error-overlay": "6.0.9"
+  }
+}
